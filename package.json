@@ -18,7 +18,8 @@
     "start:webpack": "webpack -w",
     "start:css": "npm run bundle:css && npm run bundle:css -- -w",
     "start:html": "npm run bundle:html -- --baseUrl http://localhost:1963/ --csp off",
-    "start:server": "live-server data/content --port=1963 --no-browser"
+    "start:server": "live-server data/content --port=1963 --no-browser",
+    "lint": "eslint . && jscs . && sass-lint -v -q"
   },
   "repository": {
     "type": "git",
@@ -38,7 +39,9 @@
   "dependencies": {
     "classnames": "2.2.3",
     "fancy-dedupe": "0.1.0",
+    "firebase": "^3.2.0",
     "history": "1.17.0",
+    "immutable": "^3.8.1",
     "lodash.debounce": "4.0.6",
     "moment": "2.11.2",
     "react": "0.14.8",

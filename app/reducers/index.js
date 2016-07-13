@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux'
+import {combineReducers} from "redux";
 
 /* This is a basic reducer for a firebase value event
    We should be using child_added, child_changed and child_removed events
@@ -6,14 +6,14 @@ import { combineReducers } from 'redux'
 const bookmarks = (state = [], action) => {
   switch (action.type) {
     case "BOOKMARKS_UPDATED":
-      return action.sites
+      return action.bookmarksMap.toArray();
     default:
-      return state
+      return state;
   }
-}
+};
 
 const slync = combineReducers({
   bookmarks
-})
+});
 
-export default slync
+export default slync;

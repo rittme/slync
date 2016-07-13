@@ -1,16 +1,13 @@
-let authKey = null
-let username = null
-
-export const bookmarksUpdated = (sites) => {
+export const updateBookmarks = (bookmarksMap) => {
   return {
-    type: 'BOOKMARKS_UPDATED',
-    sites
-  }
-}
+    type: "BOOKMARKS_UPDATED",
+    bookmarksMap
+  };
+};
 
-export const credentialsUpdate = (credentials) => {
+export const updateCredentials = (credentials) => {
   return {
-    type: 'CREDENTIALS_UPDATE',
+    type: "UPDATE_CREDENTIALS",
     credentials
-  }
-}
+  };
+};

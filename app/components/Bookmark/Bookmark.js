@@ -1,8 +1,8 @@
-import React, { PropTypes } from 'react';
-import moment from 'moment';
-import getBestImage from 'lib/getBestImage';
-import classNames from 'classnames';
-import SiteIcon from 'components/SiteIcon/SiteIcon';
+import React, {PropTypes} from "react";
+import moment from "moment";
+import getBestImage from "lib/getBestImage";
+import classNames from "classnames";
+import SiteIcon from "components/SiteIcon/SiteIcon";
 
 const Bookmark = (site) => {
   const title = site.bookmarkTitle;
@@ -51,20 +51,20 @@ const Bookmark = (site) => {
 };
 
 Bookmark.propTypes = {
-  accessTime: React.PropTypes.number,
-  bookmarkDateCreated: React.PropTypes.number,
-  bookmarkTitle: React.PropTypes.string,
-  guid: React.PropTypes.string,
-  description: React.PropTypes.string,
-  favicon: React.PropTypes.string,
-  favicon_color: React.PropTypes.arrayOf(React.PropTypes.number),
-  favicon_url: React.PropTypes.string,
-  frecency: React.PropTypes.number,
-  images: React.PropTypes.arrayOf(React.PropTypes.object),
-  lastModified: React.PropTypes.number,
-  original_url: React.PropTypes.string,
-  refreshTime: React.PropTypes.number,
-  url: React.PropTypes.string
+  accessTime: PropTypes.number,
+  bookmarkDateCreated: PropTypes.number,
+  bookmarkTitle: PropTypes.string,
+  guid: PropTypes.string,
+  description: PropTypes.string,
+  favicon: PropTypes.string,
+  favicon_color: PropTypes.arrayOf(PropTypes.number),
+  favicon_url: PropTypes.string,
+  frecency: PropTypes.number,
+  images: PropTypes.arrayOf(PropTypes.object),
+  lastModified: PropTypes.number,
+  original_url: PropTypes.string,
+  refreshTime: PropTypes.number,
+  url: PropTypes.string
 };
 
 export default Bookmark;
