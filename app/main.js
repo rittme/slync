@@ -1,7 +1,19 @@
-const React = require("react");
-const ReactDOM = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
+import BookmarksCollection from "containers/BookmarksCollection";
+import FirebaseManager from "lib/FirebaseManager";
+import {Provider} from "react-redux";
+import {createStore} from "redux";
+import slync from "reducers";
 
-const {BookmarksPage} = require("components/BookmarksPage/BookmarksPage");
-const sites = require("lib/shim.json").RECENT_BOOKMARKS_RESPONSE;
+//const sites = require("lib/shim.json").RECENT_BOOKMARKS_RESPONSE;
 
-ReactDOM.render(<BookmarksPage sites={sites} />, document.getElementById("root"));
+//let store = createStore(slync);
+let store = createStore(slync, window.devToolsExtension && window.devToolsExtension());
+let fm = new FirebaseManager(store); // eslint-disable-line no-unused-vars
+
+ReactDOM.render(
+  <Provider store={store}>
+    <BookmarksCollection />
+  </Provider>,
+  document.getElementById("root"));
