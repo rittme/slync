@@ -1,0 +1,729 @@
+{
+  "RECENT_BOOKMARKS_RESPONSE" : [
+    {
+      "accessTime" : 1468357256872,
+      "app_links" : [ {
+        "namespace" : "twitter",
+        "type" : "ipad"
+      }, {
+        "namespace" : "twitter",
+        "type" : "googleplay"
+      }, {
+        "namespace" : "twitter",
+        "type" : "iphone"
+      } ],
+      "bookmarkDateCreated" : 1468357251936,
+      "bookmarkGuid" : "xYJoN6MQCUFa",
+      "bookmarkId" : 10,
+      "bookmarkTitle" : "Get Involved",
+      "cacheKey" : "mozilla.org/en-US/contribute",
+      "cache_age" : 86393,
+      "description" : "is about more than lending a hand. It's about learning, collaborating and sharing your skills with a global community of Mozillians - coders, organizers, activists and more - who help shape the Web every day.",
+      "favicon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gwMDAsTBZbkNwAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABNElEQVQ4y8WSsU0DURBE3yyWIaAJaqAAN4DPSL6AlIACKIEOyJEgRsIgOOkiInJqgAKowNg7BHdn7MOksNl+zZ//dvbDf5cAiklp22BdVtXdeTEpDYDB9m1VzU6OJuVp2NdEQCaI96fH2YHG4+mDduKYNMYINTcjcGbXzQVDEAphG0k48zUsajIbnAiMIXThpW8EICE0RAK4dvoKg9NIcTiQ589otyHOZLnwqK5nLwBFUZ4igc3iM0d1ff8CMC6mZ6Ihiaqq3gi1aUAnArD00SW1fq5OLBg0ymYmSZsR2/t4e/rGyCLW0sbp3oq+yTYqVgytQWui2FS7XYF7GFprY921T4CNQt8zr47dNzCkIX7y/jBtH+v+RGMQrc828W8pApnZbmEVQp/Ae7BlOy2ttib81/UFc+WRWEbjckIAAAAASUVORK5CYII=",
+      "favicon_color" : [ 78, 78, 84 ],
+      "favicon_colors" : [ {
+        "color" : [ 74, 78, 84 ],
+        "weight" : 2.4414060000000002E-4
+      }, {
+        "color" : [ 252, 252, 252 ],
+        "weight" : 2.4414060000000002E-4
+      } ],
+      "favicon_url" : "https://www.mozilla.org/media/img/favicon.52506929be4c.ico",
+      "frecency" : 140,
+      "guid" : "GUEJAahM26vG",
+      "images" : [ {
+        "colors" : [ {
+          "color" : [ 247, 251, 252 ],
+          "weight" : 0.9318847656
+        }, {
+          "color" : [ 77, 81, 89 ],
+          "weight" : 0.0681152344
+        } ],
+        "entropy" : 0.491902036658,
+        "height" : 256,
+        "size" : 5321,
+        "url" : "https://www.mozilla.org/media/img/mozorg/mozilla-256.c29a8b01d659.jpg",
+        "width" : 256
+      }, {
+        "colors" : [ {
+          "color" : [ 204, 210, 204 ],
+          "weight" : 0.3513183594
+        }, {
+          "color" : [ 172, 140, 126 ],
+          "weight" : 0.1677246094
+        }, {
+          "color" : [ 94, 71, 57 ],
+          "weight" : 0.1330566406
+        }, {
+          "color" : [ 126, 99, 87 ],
+          "weight" : 0.099609375
+        }, {
+          "color" : [ 49, 43, 44 ],
+          "weight" : 0.095703125
+        } ],
+        "entropy" : 4.3949675836,
+        "height" : 240,
+        "size" : 62818,
+        "url" : "https://www.mozilla.org/media/img/contribute/video-image.1a3648c24a78.png",
+        "width" : 480
+      }, {
+        "colors" : [ {
+          "color" : [ 206, 197, 168 ],
+          "weight" : 0.2954101562
+        }, {
+          "color" : [ 13, 17, 14 ],
+          "weight" : 0.2915039062
+        }, {
+          "color" : [ 192, 145, 111 ],
+          "weight" : 0.09619140620000001
+        }, {
+          "color" : [ 246, 249, 244 ],
+          "weight" : 0.0715332031
+        }, {
+          "color" : [ 246, 85, 95 ],
+          "weight" : 0.0622558594
+        } ],
+        "entropy" : 5.9551702229,
+        "height" : 300,
+        "size" : 18668,
+        "url" : "https://www.mozilla.org/media/img/contribute/person-faye.1bfdab1ab5c0.jpg",
+        "width" : 300
+      }, {
+        "colors" : [ {
+          "color" : [ 129, 79, 50 ],
+          "weight" : 0.4377441406
+        }, {
+          "color" : [ 229, 187, 173 ],
+          "weight" : 0.2448730469
+        }, {
+          "color" : [ 185, 142, 126 ],
+          "weight" : 0.2133789062
+        }, {
+          "color" : [ 35, 19, 12 ],
+          "weight" : 0.10400390620000001
+        } ],
+        "entropy" : 6.194494254,
+        "height" : 300,
+        "size" : 22549,
+        "url" : "https://www.mozilla.org/media/img/contribute/person-michael.ab10228a2906.jpg",
+        "width" : 300
+      }, {
+        "colors" : [ {
+          "color" : [ 106, 99, 109 ],
+          "weight" : 0.3984375
+        }, {
+          "color" : [ 10, 15, 25 ],
+          "weight" : 0.3491210938
+        }, {
+          "color" : [ 149, 152, 167 ],
+          "weight" : 0.2062988281
+        }, {
+          "color" : [ 183, 195, 211 ],
+          "weight" : 0.029052734400000002
+        }, {
+          "color" : [ 240, 252, 251 ],
+          "weight" : 0.013671875
+        } ],
+        "entropy" : 5.301056015,
+        "height" : 300,
+        "size" : 12585,
+        "url" : "https://www.mozilla.org/media/img/contribute/person-ruben.a2625b0346b3.jpg",
+        "width" : 300
+      } ],
+      "keywords" : [ {
+        "name" : "mozilla",
+        "score" : 40
+      }, {
+        "name" : "subscription",
+        "score" : 14
+      }, {
+        "name" : "mozillians",
+        "score" : 10
+      }, {
+        "name" : "org",
+        "score" : 10
+      }, {
+        "name" : "coders",
+        "score" : 9
+      }, {
+        "name" : "skills",
+        "score" : 9
+      }, {
+        "name" : "content",
+        "score" : 8
+      }, {
+        "name" : "confirm",
+        "score" : 7
+      }, {
+        "name" : "filter",
+        "score" : 6
+      }, {
+        "name" : "newsletter",
+        "score" : 6
+      } ],
+      "language" : "English",
+      "lastModified" : 1468357251937,
+      "original_url" : "https://www.mozilla.org/en-US/contribute",
+      "provider_display" : "www.mozilla.org",
+      "provider_name" : "Mozilla",
+      "provider_url" : "https://www.mozilla.org",
+      "published" : 1468364400000,
+      "refreshTime" : 1468357254771,
+      "safe" : true,
+      "sanitizedURL" : "https://www.mozilla.org/en-US/contribute",
+      "type" : "bookmark",
+      "url" : "https://www.mozilla.org/en-US/contribute/"
+    },
+    {
+      "accessTime" : 1468357256872,
+      "app_links" : [ {
+        "namespace" : "twitter",
+        "type" : "ipad"
+      }, {
+        "namespace" : "twitter",
+        "type" : "googleplay"
+      }, {
+        "namespace" : "twitter",
+        "type" : "iphone"
+      } ],
+      "bookmarkDateCreated" : 1468357251937,
+      "bookmarkGuid" : "bfbSFLeQ2mva",
+      "bookmarkId" : 11,
+      "bookmarkTitle" : "About Us",
+      "cacheKey" : "mozilla.org/en-US/about",
+      "cache_age" : 86399,
+      "description" : "The heart of Mozilla is a global community with a shared mission. Watch the video to meet Mozillians from all over the world and all walks of life.",
+      "entities" : [ {
+        "count" : 1,
+        "name" : "Mozilla"
+      }, {
+        "count" : 1,
+        "name" : "Firefox"
+      }, {
+        "count" : 1,
+        "name" : "Our Management Teams , Reps Council and Boards of Directors"
+      } ],
+      "favicon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gwMDAsTBZbkNwAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABNElEQVQ4y8WSsU0DURBE3yyWIaAJaqAAN4DPSL6AlIACKIEOyJEgRsIgOOkiInJqgAKowNg7BHdn7MOksNl+zZ//dvbDf5cAiklp22BdVtXdeTEpDYDB9m1VzU6OJuVp2NdEQCaI96fH2YHG4+mDduKYNMYINTcjcGbXzQVDEAphG0k48zUsajIbnAiMIXThpW8EICE0RAK4dvoKg9NIcTiQ589otyHOZLnwqK5nLwBFUZ4igc3iM0d1ff8CMC6mZ6Ihiaqq3gi1aUAnArD00SW1fq5OLBg0ymYmSZsR2/t4e/rGyCLW0sbp3oq+yTYqVgytQWui2FS7XYF7GFprY921T4CNQt8zr47dNzCkIX7y/jBtH+v+RGMQrc828W8pApnZbmEVQp/Ae7BlOy2ttib81/UFc+WRWEbjckIAAAAASUVORK5CYII=",
+      "favicon_color" : [ 78, 78, 84 ],
+      "favicon_colors" : [ {
+        "color" : [ 74, 78, 84 ],
+        "weight" : 2.4414060000000002E-4
+      }, {
+        "color" : [ 252, 252, 252 ],
+        "weight" : 2.4414060000000002E-4
+      } ],
+      "favicon_url" : "https://www.mozilla.org/media/img/favicon.52506929be4c.ico",
+      "frecency" : 140,
+      "guid" : "yHqM1OiMzC3o",
+      "images" : [ {
+        "colors" : [ {
+          "color" : [ 247, 251, 252 ],
+          "weight" : 0.9318847656
+        }, {
+          "color" : [ 77, 81, 89 ],
+          "weight" : 0.0681152344
+        } ],
+        "entropy" : 0.491902036658,
+        "height" : 256,
+        "size" : 5321,
+        "url" : "https://www.mozilla.org/media/img/mozorg/mozilla-256.c29a8b01d659.jpg",
+        "width" : 256
+      }, {
+        "colors" : [ {
+          "color" : [ 235, 230, 219 ],
+          "weight" : 0.3010253906
+        }, {
+          "color" : [ 16, 16, 28 ],
+          "weight" : 0.1545410156
+        }, {
+          "color" : [ 34, 41, 70 ],
+          "weight" : 0.109375
+        }, {
+          "color" : [ 122, 158, 207 ],
+          "weight" : 0.080078125
+        }, {
+          "color" : [ 46, 73, 122 ],
+          "weight" : 0.0766601562
+        } ],
+        "entropy" : 6.7375255678,
+        "height" : 190,
+        "size" : 16087,
+        "url" : "https://www.mozilla.org/media/img/mosaic/009.56aea3038fed.jpg",
+        "width" : 190
+      }, {
+        "colors" : [ {
+          "color" : [ 228, 158, 89 ],
+          "weight" : 0.2141113281
+        }, {
+          "color" : [ 182, 114, 69 ],
+          "weight" : 0.2131347656
+        }, {
+          "color" : [ 31, 21, 16 ],
+          "weight" : 0.134765625
+        }, {
+          "color" : [ 108, 68, 38 ],
+          "weight" : 0.12158203120000001
+        }, {
+          "color" : [ 117, 134, 112 ],
+          "weight" : 0.10400390620000001
+        } ],
+        "entropy" : 7.1908397939,
+        "height" : 190,
+        "size" : 15753,
+        "url" : "https://www.mozilla.org/media/img/mosaic/001.4f42c83f388a.jpg",
+        "width" : 190
+      }, {
+        "colors" : [ {
+          "color" : [ 195, 214, 230 ],
+          "weight" : 0.3344726562
+        }, {
+          "color" : [ 28, 26, 29 ],
+          "weight" : 0.2614746094
+        }, {
+          "color" : [ 70, 68, 71 ],
+          "weight" : 0.1174316406
+        }, {
+          "color" : [ 159, 160, 165 ],
+          "weight" : 0.0971679688
+        }, {
+          "color" : [ 133, 132, 123 ],
+          "weight" : 0.0734863281
+        } ],
+        "entropy" : 6.755210637,
+        "height" : 190,
+        "size" : 15224,
+        "url" : "https://www.mozilla.org/media/img/mosaic/008.c1958a8da5f6.jpg",
+        "width" : 190
+      }, {
+        "colors" : [ {
+          "color" : [ 171, 182, 170 ],
+          "weight" : 0.2958984375
+        }, {
+          "color" : [ 53, 61, 74 ],
+          "weight" : 0.2805175781
+        }, {
+          "color" : [ 8, 18, 29 ],
+          "weight" : 0.2546386719
+        }, {
+          "color" : [ 152, 141, 129 ],
+          "weight" : 0.09423828120000001
+        }, {
+          "color" : [ 118, 113, 115 ],
+          "weight" : 0.0747070312
+        } ],
+        "entropy" : 6.1465009328,
+        "height" : 190,
+        "size" : 9285,
+        "url" : "https://www.mozilla.org/media/img/mosaic/006.700ebe97b0a0.jpg",
+        "width" : 190
+      } ],
+      "keywords" : [ {
+        "name" : "mozilla",
+        "score" : 60
+      }, {
+        "name" : "subscription",
+        "score" : 14
+      }, {
+        "name" : "mozillians",
+        "score" : 10
+      }, {
+        "name" : "firefox",
+        "score" : 10
+      }, {
+        "name" : "non-profit",
+        "score" : 10
+      }, {
+        "name" : "project",
+        "score" : 7
+      }, {
+        "name" : "confirm",
+        "score" : 7
+      }, {
+        "name" : "overview",
+        "score" : 7
+      }, {
+        "name" : "ramblings",
+        "score" : 6
+      }, {
+        "name" : "filter",
+        "score" : 6
+      } ],
+      "language" : "English",
+      "lastModified" : 1468357251938,
+      "original_url" : "https://www.mozilla.org/en-US/about",
+      "provider_display" : "www.mozilla.org",
+      "provider_name" : "Mozilla",
+      "provider_url" : "https://www.mozilla.org",
+      "refreshTime" : 1468357254771,
+      "safe" : true,
+      "sanitizedURL" : "https://www.mozilla.org/en-US/about",
+      "type" : "bookmark",
+      "url" : "https://www.mozilla.org/en-US/about/"
+    },
+    {
+      "accessTime" : 1468357256872,
+      "app_links" : [ {
+        "namespace" : "twitter",
+        "type" : "ipad"
+      }, {
+        "namespace" : "twitter",
+        "type" : "googleplay"
+      }, {
+        "namespace" : "twitter",
+        "type" : "iphone"
+      } ],
+      "bookmarkDateCreated" : 1468357251932,
+      "bookmarkGuid" : "5E20cR5SlF0N",
+      "bookmarkId" : 6,
+      "bookmarkTitle" : "Getting Started",
+      "cacheKey" : "mozilla.org/en-US/firefox/central",
+      "cache_age" : 86400,
+      "description" : "Download Mozilla Firefox, a free Web browser. Firefox is created by a global non-profit dedicated to putting individuals in control online. Get Firefox for Windows, Mac OS X, Linux, Android and iOS today!",
+      "entities" : [ {
+        "count" : 13,
+        "name" : "Firefox"
+      } ],
+      "favicon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAz5JREFUeNpcU0toXFUY/s49596588ikySSmM8rk0UkJEirVTVEjYk1NUdRFFgouXZQI2k2hUCjdiYIuCi4Kuig0DbqQYgU3Yi0iFRuRCBMwaZvMZDTNY95z3/fM8b8jldpzOeeee/i/737n+/+f4ZExf730rkiaZ9NJMx/nmk5HypMqqLr+ZuD4F67N5ZYejmfRsnvhyKsLhSs3zP70SubgYKHSdFENu+gXAprQIGnvBi5ez0m1b6u7M399+PTx+UvtCKtFi2F6195qXK2byir88esy5ksfYND5DhuhRCtUKBNB0Q7w5Z8ee2GgWdjOn250fn5v5j8F5dOHlZD0kWRgAwp3hrKY0S9BJWKIcQ5PShhNG4+1bHx+IocT+RXcrRSDMfFNRvvt3Oyp/icIrRhUl9hoO4kt3F55Bxf3LkLV20jWOohbDjzXxyc/lMH0cRSyCd1xq+dFhu986t7T0CUwIzB8EkW3O5ibhj44ib7NJhiBKRoB/aS4ZWHjbxtjGQYP7nGRTjim1SaQqYiAVAREpHG8vzWJn+6PQ6CF0HPR7nQQczpYeEWHyWMUkwU8MSECGwgJxAWp9xWKNzkuH3oet+JDlIE9Momedh1G4CN0bfhVG9nsS0BQQthJx0V7j3elq7ihqV5ezQTwZmodP9ZGkU/bOPr4Nr53xtDYsaD7Dg4nNqFaH5OCYSSdGhf7daNmuv6wEKqXk/yExKGBHSznFsH6FFpKQ/JAA0ulUejWLt44lkHXsqDaX6C6Nl4Rnq8vK8s/KThDMlJhkI91YOO+iR3XwEelCdTCBLSgijNzd6DLNfhlHfZ6FtWiWBQpq/V2LdSrrNPljBQkoOjuCiPxAMutOIbkPqYSEqeequGZaTLzdhZhS0PlnlB9bvhtr5CuHj3y2Qj8hVQ/kEopxONEEsO/0yATDYXYAdWrE69JEElXq7Hyk0tro+xBU1yZmr4xrIcvptIRCZlJJAYBmRGRkD08aivA7VDvWPqt564Xn41w/AHB1/u7l1/uGxGU8mNcgodUNDIq0JDeLnpzc1uo1Qr76rWbqyf/142PjsXJqdkmN2YDnQ9oGkJNU+t57q7qUv4y9/t64+HYfwQYAN7OczrzUDvGAAAAAElFTkSuQmCC",
+      "favicon_color" : [ 223, 86, 38 ],
+      "favicon_colors" : [ {
+        "color" : [ 248, 251, 250 ],
+        "weight" : 0.1540527344
+      }, {
+        "color" : [ 216, 107, 43 ],
+        "weight" : 0.1262207031
+      }, {
+        "color" : [ 186, 62, 40 ],
+        "weight" : 0.0666503906
+      }, {
+        "color" : [ 88, 187, 228 ],
+        "weight" : 0.043212890600000005
+      }, {
+        "color" : [ 0, 140, 197 ],
+        "weight" : 0.040283203100000005
+      } ],
+      "favicon_url" : "https://www.mozilla.org/media/img/firefox/favicon.dc6635050bf5.ico",
+      "frecency" : 140,
+      "guid" : "WszQbMDIT4gl",
+      "images" : [ {
+        "colors" : [ {
+          "color" : [ 0, 68, 115 ],
+          "weight" : 0.271484375
+        }, {
+          "color" : [ 0, 115, 174 ],
+          "weight" : 0.2641601562
+        }, {
+          "color" : [ 236, 129, 45 ],
+          "weight" : 0.2421875
+        }, {
+          "color" : [ 248, 205, 43 ],
+          "weight" : 0.2221679688
+        } ],
+        "entropy" : 4.83121373274,
+        "height" : 627,
+        "size" : 83964,
+        "url" : "https://www.mozilla.org/media/img/firefox/firefox-independent-1200.5bd827ccf1ed.jpg",
+        "width" : 1200
+      }, {
+        "colors" : [ {
+          "color" : [ 6, 7, 14 ],
+          "weight" : 0.6306152344
+        }, {
+          "color" : [ 244, 245, 234 ],
+          "weight" : 0.1906738281
+        }, {
+          "color" : [ 193, 78, 41 ],
+          "weight" : 0.0908203125
+        }, {
+          "color" : [ 213, 133, 46 ],
+          "weight" : 0.040527343800000004
+        }, {
+          "color" : [ 61, 163, 219 ],
+          "weight" : 0.027099609400000002
+        } ],
+        "entropy" : 2.3090463416,
+        "height" : 70,
+        "size" : 9804,
+        "url" : "https://www.mozilla.org/media/img/firefox/template/header-logo-inverse.510f97e92635.png",
+        "width" : 185
+      }, {
+        "colors" : [ {
+          "color" : [ 7, 9, 11 ],
+          "weight" : 0.7443847656
+        }, {
+          "color" : [ 136, 141, 139 ],
+          "weight" : 0.099609375
+        }, {
+          "color" : [ 237, 237, 237 ],
+          "weight" : 0.0725097656
+        }, {
+          "color" : [ 0, 211, 252 ],
+          "weight" : 0.0317382812
+        }, {
+          "color" : [ 189, 189, 189 ],
+          "weight" : 0.0200195312
+        } ],
+        "entropy" : 2.2274196557,
+        "height" : 45,
+        "size" : 2688,
+        "url" : "https://www.mozilla.org/media/img/l10n/en-US/firefox/android/btn-google-play.77bdbc935c58.png",
+        "width" : 152
+      } ],
+      "keywords" : [ {
+        "name" : "firefox",
+        "score" : 130
+      }, {
+        "name" : "requirements",
+        "score" : 20
+      }, {
+        "name" : "mozilla",
+        "score" : 20
+      }, {
+        "name" : "system",
+        "score" : 19
+      }, {
+        "name" : "versions",
+        "score" : 17
+      }, {
+        "name" : "meet",
+        "score" : 17
+      }, {
+        "name" : "privacy",
+        "score" : 16
+      }, {
+        "name" : "instructions",
+        "score" : 16
+      }, {
+        "name" : "install",
+        "score" : 15
+      }, {
+        "name" : "subscription",
+        "score" : 14
+      } ],
+      "language" : "English",
+      "lastModified" : 1468357251933,
+      "original_url" : "https://www.mozilla.org/en-US/firefox/central",
+      "provider_display" : "www.mozilla.org",
+      "provider_name" : "Mozilla",
+      "provider_url" : "https://www.mozilla.org",
+      "refreshTime" : 1468357254771,
+      "safe" : true,
+      "sanitizedURL" : "https://www.mozilla.org/en-US/firefox/central",
+      "type" : "bookmark",
+      "url" : "https://www.mozilla.org/en-US/firefox/central/"
+    },
+    {
+      "accessTime" : 1468357256872,
+      "app_links" : [ {
+        "namespace" : "twitter",
+        "type" : "ipad"
+      }, {
+        "namespace" : "twitter",
+        "type" : "googleplay"
+      }, {
+        "namespace" : "twitter",
+        "type" : "iphone"
+      } ],
+      "bookmarkDateCreated" : 1468357251935,
+      "bookmarkGuid" : "oRja81uSCwPQ",
+      "bookmarkId" : 9,
+      "bookmarkTitle" : "Customize Firefox",
+      "cacheKey" : "mozilla.org/en-US/firefox/customize",
+      "cache_age" : 86399,
+      "content" : "<div>\n<div>\n<p><section><p>It's easier than ever to personalize Firefox and make it work the way you do.<br> No other browser gives you so much choice and flexibility.</p>\n<div><img src=\"https://www.mozilla.org/media/img/firefox/desktop/customize/animations/flexible-top-fallback.c960365ba781.png\"></div> \n</section></p><div>\n<p><section><div>\n<h3>Themes</h3>\n<p>Make Firefox match your style. Choose from thousands of themes and dress up your browser with a single click.</p>\n<div>\n<p><button>Preview yellow theme</button><button>Preview green theme</button><button>Preview blue theme</button><button>Preview red theme</button></p>\n</div>\n<p><a href=\"https://addons.mozilla.org/firefox/themes/\">Try it now</a><br><a href=\"https://support.mozilla.org/kb/use-themes-change-look-of-firefox\">Learn more</a></p>\n</div>\n<p><a href=\"https://www.mozilla.org/en-US/firefox/desktop/customize/#add-ons\">Next</a></p>\n<div><img src=\"https://www.mozilla.org/media/img/firefox/desktop/customize/theme-red.61611c5734ab.png\"></div>\n</section><section><div>\n<h3>Add-ons</h3>\n<p><a href=\"https://www.mozilla.org/en-US/firefox/desktop/customize/#awesome-bar\">Next</a></p>\n<p>Add-ons are like apps that you install to add features to Firefox. They let you compare prices, check the weather, listen to music, send a tweet and more.</p>\n<p>\n</p><ul><li>Read the latest news &amp; blogs</li>\n\t<li>Manage your downloads</li>\n\t<li>Watch videos &amp; view photos</li>\n</ul><a href=\"https://addons.mozilla.org/firefox/extensions/?sort=featured\">Here are a few of our favorites</a><br><a href=\"https://support.mozilla.org/kb/find-and-install-add-ons-add-features-to-firefox\">Learn more</a>\n</div>\n<div><img src=\"https://www.mozilla.org/media/img/firefox/desktop/customize/add-ons.63a4b761f822.png\"></div>\n</section><section><div>\n<h3>Awesome Bar</h3>\n<p><a href=\"https://www.mozilla.org/en-US/firefox/desktop/customize/#themes\">Next</a></p>\n<p>The Awesome Bar learns as you browse to make your version of Firefox unique. Find and return to your favorite sites without having to remember a URL.</p>\n<p><a href=\"https://support.mozilla.org/kb/awesome-bar-find-your-bookmarks-history-and-tabs\">See what it can do for you</a></p>\n</div>\n<div><img src=\"https://www.mozilla.org/media/img/firefox/desktop/customize/awesome-bar.437df162126c.png\"></div>\n</section></p>\n</div>\n\n<div>\n<div>\n<p>Download Firefox - English (US)</p> \n</div>\n<div>\n<p>Your system may not meet the requirements for Firefox, but you can try one of these versions:</p>\n<div>\n<p>Download Firefox - English (US)</p>\n</div>\n</div>\n<p>Your system doesn't meet the <a href=\"https://www.mozilla.org/en-US/firefox/system-requirements/\">requirements</a> to run Firefox.</p>\n<p>Your system doesn't meet the <a href=\"https://support.mozilla.org/kb/firefox-osx\">requirements</a> to run Firefox.</p>\n<p>Please follow <a href=\"https://support.mozilla.org/kb/install-firefox-linux\">these instructions</a> to install Firefox.</p>\n<p><small> <a href=\"https://www.mozilla.org/en-US/privacy/firefox/\">Firefox Privacy</a></small></p> \n</div>\n</div>\n<p>\n</p><p>Portions of this content are &#169;1998-2016 by individual mozilla.org contributors. Content available under a <a href=\"https://www.mozilla.org/en-US/foundation/licensing/website-content/\">Creative Commons license</a>.</p>\n\n</div>",
+      "description" : "It's easier than ever to personalize Firefox and make it work the way you do. No other browser gives you so much choice and flexibility. Make Firefox match your style. Choose from thousands of themes and dress up your browser with a single click.",
+      "entities" : [ {
+        "count" : 11,
+        "name" : "Firefox"
+      }, {
+        "count" : 2,
+        "name" : "US"
+      } ],
+      "favicon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gwMDAsTBZbkNwAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABNElEQVQ4y8WSsU0DURBE3yyWIaAJaqAAN4DPSL6AlIACKIEOyJEgRsIgOOkiInJqgAKowNg7BHdn7MOksNl+zZ//dvbDf5cAiklp22BdVtXdeTEpDYDB9m1VzU6OJuVp2NdEQCaI96fH2YHG4+mDduKYNMYINTcjcGbXzQVDEAphG0k48zUsajIbnAiMIXThpW8EICE0RAK4dvoKg9NIcTiQ589otyHOZLnwqK5nLwBFUZ4igc3iM0d1ff8CMC6mZ6Ihiaqq3gi1aUAnArD00SW1fq5OLBg0ymYmSZsR2/t4e/rGyCLW0sbp3oq+yTYqVgytQWui2FS7XYF7GFprY921T4CNQt8zr47dNzCkIX7y/jBtH+v+RGMQrc828W8pApnZbmEVQp/Ae7BlOy2ttib81/UFc+WRWEbjckIAAAAASUVORK5CYII=",
+      "favicon_color" : [ 78, 78, 84 ],
+      "favicon_colors" : [ {
+        "color" : [ 248, 251, 250 ],
+        "weight" : 0.1540527344
+      }, {
+        "color" : [ 216, 107, 43 ],
+        "weight" : 0.1262207031
+      }, {
+        "color" : [ 186, 62, 40 ],
+        "weight" : 0.0666503906
+      }, {
+        "color" : [ 88, 187, 228 ],
+        "weight" : 0.043212890600000005
+      }, {
+        "color" : [ 0, 140, 197 ],
+        "weight" : 0.040283203100000005
+      } ],
+      "favicon_url" : "https://www.mozilla.org/media/img/firefox/favicon.dc6635050bf5.ico",
+      "frecency" : 140,
+      "guid" : "PzFpb1MasYEQ",
+      "images" : [ {
+        "colors" : [ {
+          "color" : [ 0, 114, 173 ],
+          "weight" : 0.2712402344
+        }, {
+          "color" : [ 0, 67, 116 ],
+          "weight" : 0.2634277344
+        }, {
+          "color" : [ 236, 129, 45 ],
+          "weight" : 0.2478027344
+        }, {
+          "color" : [ 247, 206, 43 ],
+          "weight" : 0.2175292969
+        } ],
+        "entropy" : 4.60104989878,
+        "height" : 627,
+        "size" : 392491,
+        "url" : "https://www.mozilla.org/media/img/firefox/template/page-image.af8027a425de.png",
+        "width" : 1200
+      }, {
+        "colors" : [ {
+          "color" : [ 228, 230, 234 ],
+          "weight" : 0.6057128906
+        }, {
+          "color" : [ 136, 141, 146 ],
+          "weight" : 0.1818847656
+        }, {
+          "color" : [ 86, 114, 137 ],
+          "weight" : 0.1027832031
+        }, {
+          "color" : [ 177, 162, 141 ],
+          "weight" : 0.0803222656
+        }, {
+          "color" : [ 244, 146, 44 ],
+          "weight" : 0.0256347656
+        } ],
+        "entropy" : 2.7401646383,
+        "height" : 459,
+        "size" : 43381,
+        "url" : "https://www.mozilla.org/media/img/firefox/desktop/customize/add-ons.63a4b761f822.png",
+        "width" : 1001
+      } ],
+      "keywords" : [ {
+        "name" : "firefox",
+        "score" : 110
+      }, {
+        "name" : "theme",
+        "score" : 28
+      }, {
+        "name" : "preview",
+        "score" : 22
+      }, {
+        "name" : "add-ons",
+        "score" : 20
+      }, {
+        "name" : "download",
+        "score" : 18
+      }, {
+        "name" : "browser",
+        "score" : 15
+      }, {
+        "name" : "learns",
+        "score" : 11
+      }, {
+        "name" : "awesome",
+        "score" : 11
+      }, {
+        "name" : "english",
+        "score" : 10
+      }, {
+        "name" : "requirements",
+        "score" : 10
+      } ],
+      "language" : "English",
+      "lastModified" : 1468357251936,
+      "original_url" : "https://www.mozilla.org/en-US/firefox/customize",
+      "provider_display" : "www.mozilla.org",
+      "provider_name" : "Mozilla",
+      "provider_url" : "https://www.mozilla.org",
+      "refreshTime" : 1468357254771,
+      "related" : [ {
+        "description" : "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News",
+        "thumbnail_height" : 630,
+        "thumbnail_url" : "https://assets.bwbx.io/business/public/images/social_fallbacks/bloomberg_default-a4f15fa7ee.jpg",
+        "thumbnail_width" : 1200,
+        "title" : "Bloomberg.com"
+      } ],
+      "safe" : true,
+      "sanitizedURL" : "https://www.mozilla.org/en-US/firefox/customize",
+      "type" : "bookmark",
+      "url" : "https://www.mozilla.org/en-US/firefox/customize/"
+    },
+    {
+      "accessTime" : 1468357256872,
+      "bookmarkDateCreated" : 1468357251934,
+      "bookmarkGuid" : "7--k6EKlcnEz",
+      "bookmarkId" : 8,
+      "bookmarkTitle" : "Help and Tutorials",
+      "cacheKey" : "mozilla.org/en-US/firefox/help",
+      "cache_age" : 86400,
+      "favicon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gwMDAsTBZbkNwAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABNElEQVQ4y8WSsU0DURBE3yyWIaAJaqAAN4DPSL6AlIACKIEOyJEgRsIgOOkiInJqgAKowNg7BHdn7MOksNl+zZ//dvbDf5cAiklp22BdVtXdeTEpDYDB9m1VzU6OJuVp2NdEQCaI96fH2YHG4+mDduKYNMYINTcjcGbXzQVDEAphG0k48zUsajIbnAiMIXThpW8EICE0RAK4dvoKg9NIcTiQ589otyHOZLnwqK5nLwBFUZ4igc3iM0d1ff8CMC6mZ6Ihiaqq3gi1aUAnArD00SW1fq5OLBg0ymYmSZsR2/t4e/rGyCLW0sbp3oq+yTYqVgytQWui2FS7XYF7GFprY921T4CNQt8zr47dNzCkIX7y/jBtH+v+RGMQrc828W8pApnZbmEVQp/Ae7BlOy2ttib81/UFc+WRWEbjckIAAAAASUVORK5CYII=",
+      "favicon_color" : [ 78, 78, 84 ],
+      "favicon_colors" : [ {
+        "color" : [ 222, 110, 45 ],
+        "weight" : 0.0197753906
+      }, {
+        "color" : [ 179, 63, 45 ],
+        "weight" : 0.01171875
+      }, {
+        "color" : [ 0, 0, 0 ],
+        "weight" : 0.0087890625
+      }, {
+        "color" : [ 84, 184, 218 ],
+        "weight" : 0.0070800781000000005
+      }, {
+        "color" : [ 39, 132, 180 ],
+        "weight" : 0.00390625
+      } ],
+      "favicon_url" : "https://support.cdn.mozilla.net/static/sumo/img/firefox-16.png?v=1",
+      "frecency" : 140,
+      "guid" : "WKszka_mdcCR",
+      "keywords" : [ {
+        "name" : "mozilla",
+        "score" : 10
+      }, {
+        "name" : "content",
+        "score" : 8
+      }, {
+        "name" : "portions",
+        "score" : 5
+      }, {
+        "name" : "license",
+        "score" : 5
+      }, {
+        "name" : "contributors",
+        "score" : 5
+      }, {
+        "name" : "1998",
+        "score" : 5
+      }, {
+        "name" : "creative",
+        "score" : 5
+      }, {
+        "name" : "org",
+        "score" : 5
+      }, {
+        "name" : "2016",
+        "score" : 5
+      }, {
+        "name" : "crashing",
+        "score" : 4
+      } ],
+      "language" : "English",
+      "lastModified" : 1468357251935,
+      "offset" : -25200000,
+      "original_url" : "https://www.mozilla.org/en-US/firefox/help",
+      "provider_display" : "support.mozilla.org",
+      "provider_name" : "Mozilla",
+      "provider_url" : "https://support.mozilla.org",
+      "published" : 1468351174000,
+      "refreshTime" : 1468357254771,
+      "safe" : true,
+      "sanitizedURL" : "https://www.mozilla.org/en-US/firefox/help",
+      "type" : "bookmark",
+      "url" : "https://www.mozilla.org/en-US/firefox/help/"
+    }
+  ]
+}

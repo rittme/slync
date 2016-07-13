@@ -1,0 +1,67 @@
+@import './styles/normalize';
+@import './styles/variables';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+// For screen readers
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  // TODO: actually figure out system font here
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+a {
+  color: #00AFF7;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten(#00AFF7, 10%);
+  }
+}
+
+.inner-border {
+  border: 1px solid rgba(#000, 0.1);
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.show-on-init {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+
+  &.on {
+    opacity: 1;
+  }
+}
+
+// Components
+@import './components/BookmarksPage/BookmarksPage';
+@import './components/Bookmark/Bookmark';

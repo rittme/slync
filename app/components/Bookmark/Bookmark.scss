@@ -1,0 +1,88 @@
+.bookmark-item {
+  @include item-shadow;
+  @include link-menu-button;
+  background: $white;
+  display: inline-block;
+  margin-right: $base-gutter;
+  width: $bookmark-item-width;
+  border-radius: $border-radius;
+  height: $bookmark-item-height;
+  position: relative;
+  margin-bottom: $base-gutter;
+  @media (min-width: $break-point) {
+    flex-shrink: 0;
+  }
+
+  .inner-border {
+    border-color: $faintest-black;
+  }
+
+  > a {
+    display: block;
+    color: inherit;
+  }
+
+  .bookmark-image {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: $bookmark-img-height;
+    border-radius: $border-radius $border-radius 0 0;
+
+    &.portrait {
+      background-position: top center;
+    }
+  }
+
+  .bookmark-icon {
+    border-radius: 3px;
+    left: $bookmark-icon-gutter;
+    overflow: hidden;
+    position: absolute;
+    top: $bookmark-icon-gutter;
+  }
+
+  .bookmark-title {
+    margin: 0 0 $bookmark-title-margin-bottom;
+    font-size: inherit;
+    line-height: inherit;
+    word-wrap: break-word;
+  }
+
+  &:hover .bookmark-title {
+    color: $link-blue;
+  }
+
+  .bookmark-info {
+    padding: $bookmark-padding;
+  }
+
+  .bookmark-text {
+    max-height: $bookmark-text-height;
+    overflow: hidden;
+  }
+
+  .bookmark-description {
+    font-size: $bookmark-font-size;
+    margin: 0;
+  }
+
+  .bookmark-context {
+    padding: $bookmark-padding;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: $light-grey;
+    font-size: 11px;
+    overflow: hidden;
+  }
+
+  &.bookmark-placeholder {
+    background: $placeholder-background;
+    border: $placeholder-border;
+    box-shadow: none;
+    height: $bookmark-item-height;
+  }
+}

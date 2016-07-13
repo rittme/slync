@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.DS_Store
+*.sw[po]
+*.xpi
+*.pyc
+logs/
+dist/
+data/content/
+activity-streams-env/
+config.yml
+.amo_config.json
+lib/vendor.bundle.js

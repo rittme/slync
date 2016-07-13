@@ -1,0 +1,104 @@
+$bg-color: #FFF;
+$bg-grey: #FBFBFB;
+$very-light-grey: #EBEBEB;
+$light-grey: #A0A0A0;
+$mid-grey: #56565A;
+$dark-grey: #383E49;
+$link-blue: #00AFF7;
+$star-blue: #2B99FF;
+$navy: #383E49;
+$light-navy: #888B92;
+$sidebar-active-item-border-color: #E14164;
+$black: #000;
+$white: #FFF;
+$header-border-color: #DFE0E1;
+$faintest-black: rgba($black, 0.1);
+$faint-black: rgba($black, 0.2);
+$border-radius: 3px;
+$pink: #E6196F;
+$green: #4EB748;
+
+$wrapper-max-width: 696px;
+$break-point: $wrapper-max-width + 40px;
+
+$base-gutter: 24px;
+$section-margin: 41px;
+
+$section-title-font-size: 12px;
+$section-title-color: $light-grey;
+$section-title-bottom-margin: 13px;
+
+$header-box-shadow: 0 4px 2px -3px rgba($black, 0.05);
+$header-nav-width: 250px;
+$header-border: solid 1px $header-border-color;
+
+$tile-gutter: $base-gutter;
+$tile-width: 96px;
+$tile-height: $tile-width;
+$tile-title-height: 22px;
+$tile-font-size: 13px;
+$tile-border: 1px $white;
+$tile-title-bg-color: rgba($white, 0.6);
+$tile-title-hover-color: $white;
+$tile-title-font-size: 11px;
+
+$link-menu-button-size: 27px;
+$link-menu-button-border: 1px solid rgba($black, 0.2);
+$link-menu-button-boxshadow: 0 2px 0 rgba($black, 0.1);
+
+$feed-font-size: 12px;
+$feed-date-font-color: #BFBFBF;
+$feed-date-lighter-font-color: lighten($feed-date-font-color, 10%);
+$feed-gutter-h: 14px;
+$feed-gutter-v: 11px;
+$feed-circle-size: 8px;
+$feed-circle-offset: 16px;
+$feed-icon-size: 40px;
+$feed-hover-color: rgba($black, 0.06);
+$feed-line-color: rgba($black, 0.05);
+$feed-circle-color: #CECECE;
+
+$bookmark-padding: $base-gutter / 2;
+$bookmark-item-height: 262px;
+$bookmark-item-width: ($wrapper-max-width - $base-gutter * 2) / 3;
+$bookmark-img-height: 130px;
+$bookmark-text-height: 86px;
+$bookmark-font-size: 13px;
+$bookmark-icon-height: 35px;
+$bookmark-icon-width: 35px;
+$bookmark-icon-gutter: $base-gutter / 2;
+$bookmark-description-height: 34px;
+$bookmark-title-max-height: 36px;
+$bookmark-title-margin-bottom: 2px;
+
+$timeline-max-width: 3 * $bookmark-item-width + 20px * 2;
+
+$site-icon-border-radius: 3px;
+
+$placeholder-background: transparent;
+$placeholder-border: 1px solid $faintest-black;
+
+$item-shadow: 0 1px 0 0 $faintest-black;
+$item-shadow-hover: 0 1px 0 0 $faintest-black, 0 0 0 5px $faintest-black;
+
+$loader-size: 16px;
+
+@mixin item-shadow {
+  box-shadow: $item-shadow;
+
+  &:hover,
+  &.active {
+    box-shadow: $item-shadow-hover;
+    transition: box-shadow 150ms;
+  }
+}
+
+@mixin link-menu-button {
+  &:hover,
+  &.active {
+    .link-menu-button {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
