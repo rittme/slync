@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react'
 import Bookmark from 'components/Bookmark/Bookmark'
 
 const BookmarksPage = ({ sites }) => {
-  console.log(Bookmark);
   return (
   <div className="bookmarks">
     <ul className="bookmark-list">

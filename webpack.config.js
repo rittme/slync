@@ -58,6 +58,7 @@ module.exports = {
       "components": absolute("./app/components"),
       "reducers": absolute("./app/reducers"),
       "actions": absolute("./app/actions"),
+      "containers": absolute("./app/containers"),
       "selectors": absolute("./app/selectors"),
       "lib": absolute("./app/lib"),
       "test": absolute("./content-test")
