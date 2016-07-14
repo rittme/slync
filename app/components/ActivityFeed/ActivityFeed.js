@@ -27,7 +27,6 @@ const ActivityFeedItem = ({site, showDate}) => {
 
   let icon;
   const iconProps = {
-    ref: "icon",
     className: "feed-icon",
     site,
     iconSize: ICON_SIZE
@@ -59,17 +58,17 @@ const ActivityFeedItem = ({site, showDate}) => {
   }
 */
   return (<li className={classNames("feed-item", {bookmark: site.bookmarkGuid})}>
-    <a href={site.url} ref="link">
+    <a href={site.url} >
       <span className="star" hidden={!site.bookmarkGuid} />
       {icon}
       <div className="feed-details">
         <div className="feed-description">
-          <h4 className="feed-title" ref="title">{title}</h4>
-          <span className="feed-url" ref="url" data-feed-url={prettyUrl(site.url)}/>
+          <h4 className="feed-title" >{title}</h4>
+          <span className="feed-url" data-feed-url={prettyUrl(site.url)}/>
           {preview}
         </div>
         <div className="feed-stats">
-          <div ref="lastVisit" className="last-visit" data-last-visit={dateLabel}/>
+          <div className="last-visit" data-last-visit={dateLabel}/>
         </div>
       </div>
     </a>

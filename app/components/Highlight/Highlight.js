@@ -32,17 +32,17 @@ const Highlight = (site) => {
   }
 
   return (<li className="highlight-item">
-    <a href={site.url} ref="link">
-      <div className={classNames("highlight-image", {portrait: isPortrait})} style={style} ref="image">
-        <SiteIcon className="highlight-icon" height={40} width={40} site={site} ref="icon" showBackground={true} border={false} faviconSize={32} />
+    <a href={site.url}>
+      <div className={classNames("highlight-image", {portrait: isPortrait})} style={style}>
+        <SiteIcon className="highlight-icon" height={40} width={40} site={site} showBackground={true} border={false} faviconSize={32} />
       </div>
       <div className="highlight-details">
         <div className="highlight-info">
           <div className="highlight-text">
-            <h4 ref="title" className="highlight-title">{title}</h4>
-            <p className="highlight-description" ref="description">{description}</p>
+            <h4 className="highlight-title">{title}</h4>
+            <p className="highlight-description">{description}</p>
           </div>
-          <div className="highlight-context" ref="contextMessage">{contextMessage}</div>
+          <div className="highlight-context">{contextMessage}</div>
         </div>
       </div>
       <div className="inner-border" />

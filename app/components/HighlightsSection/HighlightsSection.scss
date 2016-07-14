@@ -1,6 +1,7 @@
 .highlights {
   font-size: 14px;
   margin-right: -$base-gutter;
+  width:100%;
 
   ul.highlights-list {
     align-items: flex-start;
@@ -8,5 +9,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    width:100%;
+
+    @media screen and (max-width: 480px) {
+      display: block;
+    }
   }
 }
