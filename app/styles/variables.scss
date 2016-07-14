@@ -58,20 +58,20 @@ $feed-hover-color: rgba($black, 0.06);
 $feed-line-color: rgba($black, 0.05);
 $feed-circle-color: #CECECE;
 
-$bookmark-padding: $base-gutter / 2;
-$bookmark-item-height: 262px;
-$bookmark-item-width: ($wrapper-max-width - $base-gutter * 2) / 3;
-$bookmark-img-height: 130px;
-$bookmark-text-height: 86px;
-$bookmark-font-size: 13px;
-$bookmark-icon-height: 35px;
-$bookmark-icon-width: 35px;
-$bookmark-icon-gutter: $base-gutter / 2;
-$bookmark-description-height: 34px;
-$bookmark-title-max-height: 36px;
-$bookmark-title-margin-bottom: 2px;
+$highlight-padding: $base-gutter / 2;
+$highlight-item-height: 262px;
+$highlight-item-width: ($wrapper-max-width - $base-gutter * 2) / 3;
+$highlight-img-height: 130px;
+$highlight-text-height: 86px;
+$highlight-font-size: 13px;
+$highlight-icon-height: 35px;
+$highlight-icon-width: 35px;
+$highlight-icon-gutter: $base-gutter / 2;
+$highlight-description-height: 34px;
+$highlight-title-max-height: 36px;
+$highlight-title-margin-bottom: 2px;
 
-$timeline-max-width: 3 * $bookmark-item-width + 20px * 2;
+$timeline-max-width: 3 * $highlight-item-width + 20px * 2;
 
 $site-icon-border-radius: 3px;
 

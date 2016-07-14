@@ -1,0 +1,58 @@
+.top-sites {
+  .tiles-wrapper {
+    margin-right: -20px;
+
+    @media (min-width: $break-point) {
+      display: flex;
+    }
+  }
+
+  // This is a container for the delete menu
+  .tile-outer {
+    position: relative;
+    display: inline-block;
+    margin: 0 $tile-gutter 0 0;
+    @media (min-width: $break-point) {
+      display: block;
+    }
+  }
+
+  .tile-placeholder {
+    margin-right: 24px;
+  }
+
+  .tile {
+    @include item-shadow;
+    @include link-menu-button;
+    display: inline-flex;
+    flex-shrink: 0;
+    border-radius: $border-radius;
+    flex-direction: column;
+    font-size: $tile-font-size;
+    height: $tile-height;
+    position: relative;
+    text-decoration: none;
+    width: $tile-width;
+    color: inherit;
+    margin-bottom: $tile-gutter;
+    @media (min-width: $break-point) {
+      margin-bottom: 0;
+    }
+
+    .tile-img-container {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &.tile-placeholder {
+      background: $placeholder-background;
+      border: $placeholder-border;
+      box-shadow: none;
+    }
+  }
+}

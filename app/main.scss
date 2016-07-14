@@ -63,5 +63,9 @@ a {
 }
 
 // Components
-@import './components/BookmarksPage/BookmarksPage';
-@import './components/Bookmark/Bookmark';
+@import './components/Base/Base';
+@import './components/SiteIcon/SiteIcon';
+@import './components/TopSites/TopSites';
+@import './components/HighlightsSection/HighlightsSection';
+@import './components/Highlight/Highlight';
+@import './components/ActivityFeed/ActivityFeed';

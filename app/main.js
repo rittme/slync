@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import BookmarksCollection from "containers/BookmarksCollection";
+import Base from "components/Base/Base";
 import FirebaseManager from "lib/FirebaseManager";
 import {Provider} from "react-redux";
 import {createStore} from "redux";
@@ -14,6 +14,6 @@ let fm = new FirebaseManager(store); // eslint-disable-line no-unused-vars
 
 ReactDOM.render(
   <Provider store={store}>
-    <BookmarksCollection />
+    <Base />
   </Provider>,
   document.getElementById("root"));

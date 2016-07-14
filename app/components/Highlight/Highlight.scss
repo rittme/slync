@@ -1,14 +1,26 @@
-.bookmark-item {
+.highlight {
+  font-size: 14px;
+  margin-right: -$base-gutter;
+
+  ul.highlight-list {
+    align-items: flex-start;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.highlight-item {
   @include item-shadow;
   @include link-menu-button;
   background: $white;
   display: inline-block;
   margin-right: $base-gutter;
-  width: $bookmark-item-width;
+  width: $highlight-item-width;
   border-radius: $border-radius;
-  height: $bookmark-item-height;
+  height: $highlight-item-height;
   position: relative;
-  margin-bottom: $base-gutter;
   @media (min-width: $break-point) {
     flex-shrink: 0;
   }
@@ -22,12 +34,12 @@
     color: inherit;
   }
 
-  .bookmark-image {
+  .highlight-image {
     position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: $bookmark-img-height;
+    height: $highlight-img-height;
     border-radius: $border-radius $border-radius 0 0;
 
     &.portrait {
@@ -35,41 +47,41 @@
     }
   }
 
-  .bookmark-icon {
+  .highlight-icon {
     border-radius: 3px;
-    left: $bookmark-icon-gutter;
+    left: $highlight-icon-gutter;
     overflow: hidden;
     position: absolute;
-    top: $bookmark-icon-gutter;
+    top: $highlight-icon-gutter;
   }
 
-  .bookmark-title {
-    margin: 0 0 $bookmark-title-margin-bottom;
+  .highlight-title {
+    margin: 0 0 $highlight-title-margin-bottom;
     font-size: inherit;
     line-height: inherit;
     word-wrap: break-word;
   }
 
-  &:hover .bookmark-title {
+  &:hover .highlight-title {
     color: $link-blue;
   }
 
-  .bookmark-info {
-    padding: $bookmark-padding;
+  .highlight-info {
+    padding: $highlight-padding;
   }
 
-  .bookmark-text {
-    max-height: $bookmark-text-height;
+  .highlight-text {
+    max-height: $highlight-text-height;
     overflow: hidden;
   }
 
-  .bookmark-description {
-    font-size: $bookmark-font-size;
+  .highlight-description {
+    font-size: $highlight-font-size;
     margin: 0;
   }
 
-  .bookmark-context {
-    padding: $bookmark-padding;
+  .highlight-context {
+    padding: $highlight-padding;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -79,10 +91,10 @@
     overflow: hidden;
   }
 
-  &.bookmark-placeholder {
+  &.highlight-placeholder {
     background: $placeholder-background;
     border: $placeholder-border;
     box-shadow: none;
-    height: $bookmark-item-height;
+    height: $highlight-item-height;
   }
 }

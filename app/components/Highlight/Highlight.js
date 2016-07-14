@@ -4,8 +4,8 @@ import getBestImage from "lib/getBestImage";
 import classNames from "classnames";
 import SiteIcon from "components/SiteIcon/SiteIcon";
 
-const Bookmark = (site) => {
-  const title = site.bookmarkTitle;
+const Highlight = (site) => {
+  const title = site.title;
   const image = getBestImage(site.images);
   const imageUrl = image ? image.url : null;
   const description = site.description || site.url;
@@ -31,18 +31,18 @@ const Bookmark = (site) => {
     style.backgroundColor = "#ccc";
   }
 
-  return (<li className="bookmark-item">
+  return (<li className="highlight-item">
     <a href={site.url} ref="link">
-      <div className={classNames("bookmark-image", {portrait: isPortrait})} style={style} ref="image">
-        <SiteIcon className="bookmark-icon" height={40} width={40} site={site} ref="icon" showBackground={true} border={false} faviconSize={32} />
+      <div className={classNames("highlight-image", {portrait: isPortrait})} style={style} ref="image">
+        <SiteIcon className="highlight-icon" height={40} width={40} site={site} ref="icon" showBackground={true} border={false} faviconSize={32} />
       </div>
-      <div className="bookmark-details">
-        <div className="bookmark-info">
-          <div className="bookmark-text">
-            <h4 ref="title" className="bookmark-title">{title}</h4>
-            <p className="bookmark-description" ref="description">{description}</p>
+      <div className="highlight-details">
+        <div className="highlight-info">
+          <div className="highlight-text">
+            <h4 ref="title" className="highlight-title">{title}</h4>
+            <p className="highlight-description" ref="description">{description}</p>
           </div>
-          <div className="bookmark-context" ref="contextMessage">{contextMessage}</div>
+          <div className="highlight-context" ref="contextMessage">{contextMessage}</div>
         </div>
       </div>
       <div className="inner-border" />
@@ -50,10 +50,10 @@ const Bookmark = (site) => {
   </li>);
 };
 
-Bookmark.propTypes = {
+Highlight.propTypes = {
   accessTime: PropTypes.number,
   bookmarkDateCreated: PropTypes.number,
-  bookmarkTitle: PropTypes.string,
+  title: PropTypes.string,
   guid: PropTypes.string,
   description: PropTypes.string,
   favicon: PropTypes.string,
@@ -67,4 +67,4 @@ Bookmark.propTypes = {
   url: PropTypes.string
 };
 
-export default Bookmark;
+export default Highlight;

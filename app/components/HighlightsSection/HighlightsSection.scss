@@ -1,0 +1,12 @@
+.highlights {
+  font-size: 14px;
+  margin-right: -$base-gutter;
+
+  ul.highlights-list {
+    align-items: flex-start;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}

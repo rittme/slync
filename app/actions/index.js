@@ -1,7 +1,21 @@
-export const updateBookmarks = (bookmarksMap) => {
+export const updateHighlights = (highlightsMap) => {
   return {
-    type: "BOOKMARKS_UPDATED",
-    bookmarksMap
+    type: "HIGHLIGHTS_UPDATED",
+    highlightsMap
+  };
+};
+
+export const updateTopSites = (topSitesMap) => {
+  return {
+    type: "TOP_SITES_UPDATED",
+    topSitesMap
+  };
+};
+
+export const updateHistory = (historyMap) => {
+  return {
+    type: "HISTORY_UPDATED",
+    historyMap
   };
 };
 

@@ -51,6 +51,9 @@ module.exports = {
     path: outputDir,
     filename: outputFilename,
   },
+  externals: {
+    'firebaseConfig': JSON.stringify(require('./firebase.config.json'))
+  },
   target: "web",
   resolve: {
     extensions: ["", ".js", ".jsx"],
