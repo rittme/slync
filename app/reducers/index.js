@@ -7,7 +7,7 @@ import fm from "lib/FirebaseManager";
 const highlights = (state = [], action) => {
   switch (action.type) {
     case "HIGHLIGHTS_UPDATED":
-      return action.highlightsMap.toArray();
+      return action.highlightsMap.toArray().reverse();
     case "UPDATE_CREDENTIALS":
       return [];
     default:
@@ -18,7 +18,7 @@ const highlights = (state = [], action) => {
 const topSites = (state = [], action) => {
   switch (action.type) {
     case "TOP_SITES_UPDATED":
-      return action.topSitesMap.toArray();
+      return action.topSitesMap.toArray().reverse();
     case "UPDATE_CREDENTIALS":
       return [];
     default:
@@ -29,7 +29,7 @@ const topSites = (state = [], action) => {
 const history = (state = [], action) => {
   switch (action.type) {
     case "HISTORY_UPDATED":
-      return action.historyMap.toArray();
+      return action.historyMap.toArray().reverse();
     case "UPDATE_CREDENTIALS":
       return [];
     default:

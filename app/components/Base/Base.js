@@ -4,25 +4,28 @@ import TopSitesCollection from "containers/TopSitesCollection";
 import HistoryCollection from "containers/HistoryCollection";
 import Settings from "components/Settings/Settings";
 import {connect} from "react-redux";
-import classNames from "classnames";
 
-let Base = ({sites, credentials}) => {
+let Base = ({sites, credentials, hasContent}) => {
   return (<main className="new-tab">
     <div className="new-tab-wrapper">
       <section>
         <Settings />
       </section>
-      <section className={classNames({hidden: !credentials})}>
+      <section hidden={!credentials}>
         <TopSitesCollection />
       </section>
 
-      <section className={classNames({hidden: !credentials})}>
+      <section hidden={!credentials}>
         <HighlightsCollection />
       </section>
 
-      <section className={classNames({hidden: !credentials})}>
+      <section hidden={!credentials}>
         <HistoryCollection />
       </section>
+
+      <div className="loader" hidden={!credentials || (credentials && hasContent)}>
+        <div className="spinner"/> Loading...
+      </div>
     </div>
     </main>
   );
@@ -31,6 +34,7 @@ let Base = ({sites, credentials}) => {
 const mapStateToProps = (state) => {
   return {
     credentials: state.credentials,
+    hasContent: state.history.length || state.topSites.length || state.highlights.length
   };
 };
 

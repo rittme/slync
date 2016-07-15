@@ -15,7 +15,7 @@ let Settings = React.createClass({
         <button className={classNames("settings-button",{disabled: isOpen})} onClick={openSettings}>
             Show settings
           </button>
-        <form className={classNames("settings-form",{hidden: !isOpen})} onSubmit={(e) => sendSettings(e, input)}>
+        <form className="settings-form" hidden={!isOpen} onSubmit={(e) => sendSettings(e, input)}>
           <input placeholder="Username" autoCapitalize="off" autoCorrect="off" ref={node => {
             input = node
             if(node) {

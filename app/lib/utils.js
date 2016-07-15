@@ -1,3 +1,6 @@
+const getBestImage = require("lib/getBestImage");
+const getVideoPreview = require("lib/getVideoPreview");
+
 const RANDOM_COLORS = [
   [242, 88, 32], // orange
   [234, 56, 95], // magenta
@@ -13,6 +16,23 @@ const RANDOM_COLORS = [
 
 module.exports = {
   RANDOM_COLORS,
+
+  selectSitePreview(site) {
+    const type = site.media ? site.media.type : null;
+    let thumbnail = null;
+    let previewURL = null;
+    if (type) {
+      thumbnail = getBestImage(site.images);
+      if (type === "video") {
+        previewURL = getVideoPreview(site.url);
+      }
+    }
+    return {
+      type,
+      thumbnail,
+      previewURL
+    };
+  },
 
   toRGBString(...color) {
     const name = color.length === 4 ? "rgba" : "rgb";

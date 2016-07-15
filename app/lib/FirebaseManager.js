@@ -20,15 +20,15 @@ class FirebaseManager {
 
   startListening(user) {
     const self = this;
-    this.db.ref(`clients/${user}/HIGHLIGHTS_LINKS_RESPONSE`).on("value", function(snapshot) {
+    this.db.ref(`clients/${user}/HIGHLIGHTS_LINKS_RESPONSE`).orderByChild("lastVisitDate").on("value", function(snapshot) {
     self.dispatch(updateHighlights(Immutable.Map(snapshot.val())));
     });
 
-    this.db.ref(`clients/${user}/TOP_FRECENT_SITES_RESPONSE`).on("value", function(snapshot) {
+    this.db.ref(`clients/${user}/TOP_FRECENT_SITES_RESPONSE`).orderByChild("lastVisitDate").on("value", function(snapshot) {
       self.dispatch(updateTopSites(Immutable.Map(snapshot.val())));
     });
 
-    this.db.ref(`clients/${user}/RECENT_LINKS_RESPONSE`).on("value", function(snapshot) {
+    this.db.ref(`clients/${user}/RECENT_LINKS_RESPONSE`).orderByChild("lastVisitDate").on("value", function(snapshot) {
       self.dispatch(updateHistory(Immutable.Map(snapshot.val())));
     });
   }

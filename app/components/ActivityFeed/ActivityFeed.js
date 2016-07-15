@@ -2,9 +2,9 @@ import React, {PropTypes} from "react";
 import classNames from "classnames";
 import SiteIcon from "components/SiteIcon/SiteIcon";
 import moment from "moment";
-import {prettyUrl, getRandomFromTimestamp} from "lib/utils";
-//mediapreview
-//selector selectSitePreview
+import {prettyUrl, getRandomFromTimestamp, selectSitePreview} from "lib/utils";
+
+import MediaPreview from "components/MediaPreview/MediaPreview";
 //const MediaPreview = require("components/MediaPreview/MediaPreview");
 
 const SHOW_DATE_HEADINGS = true;
@@ -47,7 +47,7 @@ const ActivityFeedItem = ({site, showDate}) => {
   }
 
   let preview;
-/*  if (site.media && site.media.type === "video") {
+  if (site.media && site.media.type === "video") {
     const previewInfo = selectSitePreview(site);
     if (previewInfo.previewURL) {
       const previewProps = {
@@ -56,7 +56,7 @@ const ActivityFeedItem = ({site, showDate}) => {
       preview = (<MediaPreview {...previewProps} />);
     }
   }
-*/
+
   return (<li className={classNames("feed-item", {bookmark: site.bookmarkGuid})}>
     <a href={site.url} >
       <span className="star" hidden={!site.bookmarkGuid} />
