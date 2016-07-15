@@ -18,6 +18,9 @@ let Settings = React.createClass({
         <form className={classNames("settings-form",{hidden: !isOpen})} onSubmit={(e) => sendSettings(e, input)}>
           <input placeholder="Username" ref={node => {
             input = node
+            if(node) {
+              node.select();
+            }
           }} />
           <button type="submit">
             Change user
