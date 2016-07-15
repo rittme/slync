@@ -61,6 +61,9 @@ a {
     opacity: 1;
   }
 }
+.hidden {
+  display: none !important;
+}
 
 // Components
 @import './components/Base/Base';

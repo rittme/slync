@@ -16,7 +16,7 @@ let Settings = React.createClass({
             Show settings
           </button>
         <form className={classNames("settings-form",{hidden: !isOpen})} onSubmit={(e) => sendSettings(e, input)}>
-          <input placeholder="Username" ref={node => {
+          <input placeholder="Username" autoCapitalize="off" autoCorrect="off" ref={node => {
             input = node
             if(node) {
               node.select();

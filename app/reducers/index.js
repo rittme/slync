@@ -37,7 +37,7 @@ const history = (state = [], action) => {
   }
 };
 
-const settingsOpen = (state = false, action) => {
+const settingsOpen = (state = true, action) => {
   switch (action.type) {
     case "OPEN_SETTINGS":
       return true;
