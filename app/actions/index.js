@@ -25,3 +25,9 @@ export const updateCredentials = (credentials) => {
     credentials
   };
 };
+
+export const openSettings = () => {
+  return {
+    type: "OPEN_SETTINGS",
+  };
+};

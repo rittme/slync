@@ -28,6 +28,12 @@ const SiteIcon = React.createClass({
       fontSize,
       fontWeight
     };
+
+    if(site.favicon && site.favicon.match(/resource:/)) {
+      console.log("MATCH");
+      site.favicon = site.url + "favicon.ico";
+    }
+
     const style = {width, height, backgroundColor: showBackground && "white"};
     return (<div className={classNames("site-icon", this.props.className)} style={style}>
       <div ref="background" hidden={!showBackground} className="site-icon-background" style={{backgroundColor: site.backgroundColor}} />

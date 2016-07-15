@@ -1,16 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Base from "components/Base/Base";
-import FirebaseManager from "lib/FirebaseManager";
+
 import {Provider} from "react-redux";
 import {createStore} from "redux";
 import slync from "reducers";
+import fm from "lib/FirebaseManager";
 
-//const sites = require("lib/shim.json").RECENT_BOOKMARKS_RESPONSE;
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("./service-worker.js");
+}
 
 //let store = createStore(slync);
 let store = createStore(slync, window.devToolsExtension && window.devToolsExtension());
-let fm = new FirebaseManager(store); // eslint-disable-line no-unused-vars
+fm.init(store.dispatch);
 
 ReactDOM.render(
   <Provider store={store}>

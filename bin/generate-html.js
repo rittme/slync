@@ -17,8 +17,12 @@ function template(rawOptions) {
     <meta charset="utf-8">
     ${csp}
     <title>${options.title}</title>
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="${options.baseUrl}main.css" />
-    <link rel="icon" type="image/svg+xml" href="${options.baseUrl}img/newtab-icon.svg">
+    <link rel="icon" type="image/svg+xml" href="${options.baseUrl}img/favicon.svg">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <div id="root"></div>
